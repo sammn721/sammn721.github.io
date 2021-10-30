@@ -1,12 +1,12 @@
-import React from "react";
-import CardMedia from '@mui/material/CardMedia';
+import { Container } from "react-bootstrap"
+import Navigation from "./Navigation"
 
-export default function Header() {
+export default function Header({ currentPage, handlePageChange }) {
     return (
         <div>
-            <header className="header">
-                <h1>Sam Nielsen</h1>
-            </header>
+            <Container fluid>
+                <Navigation currentpage={currentPage} handlePageChange={handlePageChange}/>
+            </Container>
         </div>
     )
 }

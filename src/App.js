@@ -1,10 +1,10 @@
 import './App.css';
-import Header from './components/Header';
+import PageDisplay from './components/PageDisplay';
 
 function App() {
   return (
-    <Header />
-  );
+    <PageDisplay />
+  )
 }
 
 export default App;
