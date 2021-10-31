@@ -1,5 +1,4 @@
 import { useState } from "react"
-import Navigation from "./Navigation"
 import AboutMe from "./pages/AboutMe"
 import { Portfolio } from "./pages/Portfolio"
 import { Contact } from "./pages/Contact"
@@ -7,7 +6,7 @@ import { Resume } from "./pages/Resume"
 import Header from "./Header"
 import Footer from "./Footer"
 
-export default function PageDisplay() {
+export default function UI() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
     const renderPage = () => {
         if (currentPage === 'AboutMe') {

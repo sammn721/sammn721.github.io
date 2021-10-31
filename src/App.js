@@ -1,9 +1,9 @@
 import './App.css';
-import PageDisplay from './components/PageDisplay';
+import UI from './components/UI';
 
 function App() {
   return (
-    <PageDisplay />
+    <UI/>
   )
 }
 
