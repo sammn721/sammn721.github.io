@@ -25,9 +25,9 @@
 .weather {
     background-image: url("./assets/weather.png");
 }
-/* .scheduler {
+.scheduler {
     background-image: url("./assets/scheduler.png");
-} */
+}
 .pwgen {
     background-image: url("./assets/pwgen.png");
 }

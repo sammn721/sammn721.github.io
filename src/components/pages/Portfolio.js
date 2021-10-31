@@ -4,7 +4,7 @@ import Project from "../Project"
 const projectData = [
     {
         "title": "Bar Hoppers",
-        "tech": "React.js / GraphQL / MUI",
+        "tech": "MERN stack / GraphQL / MUI",
         "deployed": "https://dn-bar-hoppers.herokuapp.com/",
         "github": "https://github.com/DN-Vanguard/bar-hoppers",
         "className": "project bar-hoppers"
@@ -77,27 +77,31 @@ const projectData = [
 export function Portfolio() {
     return (
         <>
-            <div className="aboutmebanner">
+            <div className="banner">
                 <h1>portfolioooo</h1>
             </div>
-            <Container >
-                <Row>
-                    <Col sm={2}>
-                        <h2>Projects</h2>
-                    </Col>
-                    <Col sm={10}>
-                        <Container >
-                            <Row >
-                            {projectData.map((project) => (
-                                <Card>
-                                    <Project title={project.title} tech={project.tech} deployed={project.deployed} github={project.github} className={project.className} />
-                                </Card>
-                            ))}
-                            </Row>
-                        </Container>
-                    </Col>
-                </Row>
-            </Container>
+            <div className="pageview">
+                <Container className="light-text">
+                    <Row>
+                        <Col sm={2}>
+                            <h2>Projects</h2>
+                        </Col>
+                        <Col sm={10}>
+                            <div className="pagecontent">
+                                <Container >
+                                    <Row >
+                                    {projectData.map((project) => (
+                                        <Card>
+                                            <Project title={project.title} tech={project.tech} deployed={project.deployed} github={project.github} className={project.className} />
+                                        </Card>
+                                    ))}
+                                    </Row>
+                                </Container>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
         </>
     )
 }
