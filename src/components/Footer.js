@@ -1,7 +1,10 @@
+import { Container } from "react-bootstrap";
+
 export default function Footer() {
     return (
-        <div>
-
-        </div>
+        <Container>
+            <a href="https://github.com/sammn721"><i class="bi bi-github"></i></a>
+            <a href="https://github.com/sammn721"><i class="bi bi-github"></i></a>
+        </Container>
     )
 }

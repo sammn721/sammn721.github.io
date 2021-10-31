@@ -4,7 +4,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
 
     return (
         <div>
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="light" expand="lg" fixed="top">
                 <Container>
                     <Navbar.Brand href="#AboutMe" onClick={() => handlePageChange('AboutMe')}>Sam Nielsen</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
