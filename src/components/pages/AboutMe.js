@@ -7,7 +7,7 @@ export default function AboutMe(){
             <div className="aboutmebanner">
                 <h1>Welcome!</h1>
             </div>
-            <div>
+            <div className="about-me">
                 <Container >
                     <Row>
                         <Col sm={2}>

@@ -1,3 +1,33 @@
 .bar-hoppers {
     background-image: url("./assets/bar-hoppers.png");
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.budgie {
+    background-image: url("./assets/budgie.png");
+}
+.regex {
+    background-image: url("./assets/regex.png");
+}
+.ecommerce {
+    background-image: url("./assets/ecommerce.png");
+}
+.worker-lurker {
+    background-image: url("./assets/worker-lurker.png");
+}
+.readmeme {
+    background-image: url("./assets/readmeme.png");
+}
+.biketrails {
+    background-image: url("./assets/biketrails.png");
+}
+.weather {
+    background-image: url("./assets/weather.png");
+}
+/* .scheduler {
+    background-image: url("./assets/scheduler.png");
+} */
+.pwgen {
+    background-image: url("./assets/pwgen.png");
 }

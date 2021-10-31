@@ -1,10 +1,16 @@
-import { Container } from "react-bootstrap";
+import { Github, Linkedin } from "react-bootstrap-icons"
 
 export default function Footer() {
     return (
-        <Container>
-            <a href="https://github.com/sammn721"><i class="bi bi-github"></i></a>
-            <a href="https://github.com/sammn721"><i class="bi bi-github"></i></a>
-        </Container>
+        <footer>
+            <div>
+                <a href="https://github.com/sammn721">
+                    <Github/>
+                </a>
+                <a href="https://linkedin.com/in/sammnielsen">
+                    <Linkedin/>
+                </a>
+            </div>
+        </footer>
     )
 }

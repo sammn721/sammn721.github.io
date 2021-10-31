@@ -64,6 +64,13 @@ const projectData = [
         "deployed": "https://sammn721.github.io/workday-planner",
         "github": "https://github.com/sammn721/workday-planner",
         "className": "project scheduler"
+    },
+    {
+        "title": "Password Genie",
+        "tech": "JavaScript / HTML",
+        "deployed": "https://sammn721.github.io/password-genie",
+        "github": "https://github.com/sammn721/password-genie",
+        "className": "project pwgen"
     }
 ]
 
