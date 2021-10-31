@@ -4,7 +4,7 @@ import me from '../../assets/winter-photo.jpg'
 export default function AboutMe(){
     return (
         <>
-            <div className="jumbotron">
+            <div className="aboutmebanner">
                 <h1>Welcome!</h1>
             </div>
             <div>
