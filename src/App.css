@@ -112,10 +112,13 @@ footer div a {
   .avatar {
     height: 75px;
   }
+  .pageview{
+    padding-top: 10px;
+  }
   .pagecontent {
     border-left: 0px;
     border-top: 3px solid var(--white);
-    padding: 25px 0 0 0;
+    padding: 10px 0 0 0;
   }
   .pagetext {
     display: flex;

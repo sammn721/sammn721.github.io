@@ -8,6 +8,7 @@ import Footer from "./Footer"
 
 export default function UI() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
+    const [value, setValue] = useState(0);
     const renderPage = () => {
         if (currentPage === 'AboutMe') {
             return <AboutMe />;
@@ -25,7 +26,7 @@ export default function UI() {
 
     return (
         <>
-            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Header currentPage={currentPage} handlePageChange={handlePageChange} value={value} setValue={setValue}/>
             {renderPage()}
             <Footer/>
         </>
