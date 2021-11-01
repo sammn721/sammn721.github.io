@@ -1,11 +1,9 @@
-.bar-hoppers {
-    background-image: url("./assets/bar-hoppers.png");
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.barhoppers {
+    background-image: url("./assets/barhoppers.png");
 }
 .budgie {
     background-image: url("./assets/budgie.png");
+    color: var(--black);
 }
 .regex {
     background-image: url("./assets/regex.png");
@@ -13,14 +11,15 @@
 .ecommerce {
     background-image: url("./assets/ecommerce.png");
 }
-.worker-lurker {
-    background-image: url("./assets/worker-lurker.png");
+.workerlurker {
+    background-image: url("./assets/workerlurker.png");
 }
 .readmeme {
     background-image: url("./assets/readmeme.png");
 }
 .biketrails {
     background-image: url("./assets/biketrails.png");
+    color:var(--black);
 }
 .weather {
     background-image: url("./assets/weather.png");

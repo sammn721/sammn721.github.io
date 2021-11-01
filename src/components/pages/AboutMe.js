@@ -18,7 +18,7 @@ export default function AboutMe(){
                         <Col sm={10}>
                             <div className="pagecontent">
                                 <p><Image src={me} roundedCircle className="avatar"/>
-                                I'm an aspiring full-stack web developer, currently based in Seattle, WA.<br/>Please explore my constantly evolving portfolio, currently built with <a href="https://create-react-app.dev/">Create React App</a> and <a href="https://react-bootstrap.github.io/">React Bootstrap</a>.</p>
+                                I'm an aspiring full-stack web developer, based in Seattle, WA.<br/>Please explore my constantly evolving portfolio, currently built with <a href="https://create-react-app.dev/">Create React App</a> and <a href="https://react-bootstrap.github.io/">React Bootstrap</a>.</p>
                             </div>
                         </Col>
                     </Row>

@@ -3,8 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 export default function Navigation({ currentPage, handlePageChange }) {
 
     return (
-        <div>
-            <Navbar className="color-nav" variant="dark" expand="lg" fixed="top">
+            <Navbar className="color-nav" variant="dark" expand="lg" fixed="top" collapseOnSelect>
                 <Container>
                     <Navbar.Brand href="#AboutMe" onClick={() => handlePageChange('AboutMe')}>Sam Nielsen</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -18,6 +17,5 @@ export default function Navigation({ currentPage, handlePageChange }) {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </div>
     )
 }

@@ -1,17 +1,27 @@
-import Button from "@restart/ui/esm/Button";
+import { Card, Col } from "react-bootstrap";
+import { Github } from "react-bootstrap-icons";
 
 export default function Project(props) {
     return (
         <>
-            <Button className={props.className} onClick={() => {window.location = props.deployed}}>
-                <div className="project-data">
-                    <h4>{props.title}</h4>
-                    <p>{props.tech}</p>
-                    <p className="github-url">
-                        <a href={props.github}>Github</a>
-                    </p>
-                </div>
-            </Button>
+            <Col>
+                <Card className="big-dark text-white pcard">
+                    <div className={props.img}>
+                        <Card.Img/>
+                    </div>
+                    <Card.ImgOverlay>
+                        <div className="projectlabel">
+                            <Card.Title><a href={props.deployed}>{props.title}</a></Card.Title>
+                            <Card.Text>{props.tech}<br/>
+                            <div className="github"> 
+                                <a href={props.github}><Github/></a>
+                            </div>
+                            </Card.Text>
+                        </div>
+                    </Card.ImgOverlay>
+                    {/* </div> */}
+                </Card>
+            </Col>
         </>
     )
 }
