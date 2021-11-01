@@ -7,12 +7,12 @@ export function Contact() {
                 <h1>hmu</h1>
             </div>
             <div className="pageview">
-                <Container className="light-text">
+                <Container className="pagetext">
                     <Row>
-                        <Col sm={2}>
+                        <Col md={2}>
                             <h2>Contact Me</h2>
                         </Col>
-                        <Col sm={10}>
+                        <Col md={10}>
                             <div className="pagecontent">
                                 <Container >
                                     <Form>

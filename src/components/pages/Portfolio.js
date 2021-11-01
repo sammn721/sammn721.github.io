@@ -1,4 +1,4 @@
-import { Card, Col, Container, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
 import Project from "../Project"
 
 const projectData = [
@@ -81,12 +81,12 @@ export function Portfolio() {
                 <h1>portfolioooo</h1>
             </div>
             <div className="pageview">
-                <Container className="light-text">
+                <Container className="pagetext">
                     <Row>
-                        <Col sm={2}>
+                        <Col md={2}>
                             <h2>Projects</h2>
                         </Col>
-                        <Col sm={10}>
+                        <Col md={10}>
                             <div className="pagecontent">
                                 <Row xs={1} md={2}>
                                 {projectData.map((project) => (

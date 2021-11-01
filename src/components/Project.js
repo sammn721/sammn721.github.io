@@ -19,7 +19,6 @@ export default function Project(props) {
                             </Card.Text>
                         </div>
                     </Card.ImgOverlay>
-                    {/* </div> */}
                 </Card>
             </Col>
         </>
